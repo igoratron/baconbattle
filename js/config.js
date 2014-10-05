@@ -3,7 +3,13 @@
 
     require.config({
         'paths': {
-            'bacon': 'lib/bacon/bacon-0.7.22.min'
+            'lazy': 'lib/lazy/lazy-7a9b0210d9'
+        },
+        'shim': {
+            'lazy': {
+                exports: 'Lazy'
+            }
         }
+
     });
 }());
